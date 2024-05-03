@@ -7,10 +7,3 @@
     high = 1
   [services.routes]
     "/" = { process = "web", port = 3000 }
-
-[[services]]
-  internal_port = 8080
-  [services.concurrency]
-    high = 1
-  [services.routes]
-    "/" = { process = "web", port = 3000 }
